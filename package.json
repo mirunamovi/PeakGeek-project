@@ -1,0 +1,40 @@
+{
+  "name": "peakgeek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirunamovi/project.git"
+  },
+  "author": "Miruna Movileanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirunamovi/project/issues"
+  },
+  "homepage": "https://github.com/mirunamovi/project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "bootstrap-icons": "^1.10.4",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "express-flash": "^0.0.2",
+    "express-layouts": "^1.0.0",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "underscore": "^1.13.6"
+  }
+}
