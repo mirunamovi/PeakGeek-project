@@ -27,7 +27,7 @@ MONGODB= CHANGE_HERE (MongoDB API)
 Clone the project
 
 ```bash
-  git clone https://github.com/mirunamovi/project.git"
+  git clone https://github.com/mirunamovi/PeakGeek-project.git"
 ```
 
 Go to the project directory
