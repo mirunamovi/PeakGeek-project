@@ -1,0 +1,55 @@
+<div class="container mt-3 py-5">
+    <h3 class="my-3">Create Your Art here</h3>
+    <br>
+    <form action="/create" enctype="multipart/form-data" method="post">
+        <label for="image">Peak Title</label>
+        <input
+            type="text"
+            name="title"
+            id="title"
+            class=" mt-2 form-control"
+            placeholder="Enter Title"
+            required
+        />
+        <br>
+
+        <label for="image">Author Name</label>
+        <input
+            type="text"
+            name="name"
+            id="name"
+            class="mt-2 form-control"
+            value="<%= name %> "
+            placeholder="Enter Author Name"
+            required
+        />
+        <br>
+
+        <label for="image">Description</label>
+        <textarea
+            name="content"
+            id="content"
+            cols="30"
+            rows="10"
+            class="mt-2 form-control"
+            placeholder="Enter text here..."
+            required
+        ></textarea>
+        <br>
+
+        <label for="image">Image</label>
+        <input
+            type="file"
+            class="mt-2 form-control"
+            name="image"
+            accept="image/*"
+        />
+
+        <input
+            type="submit"
+            value="Create"
+            class="mt-4 btn btn-md"
+            style=" background-color: rgb(106, 181, 65); border-color: rgb(106, 181, 65); border-radius: 15px;"
+        />
+    </form>
+</div>

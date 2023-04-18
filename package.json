@@ -2,14 +2,20 @@
   "name": "peakgeek",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "npm run dev"
+    "test": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mirunamovi/project.git"
   },
+  "keywords": [
+    "peakgeek",
+    "node",
+    "server"
+  ],
   "author": "Miruna Movileanu",
   "license": "ISC",
   "bugs": {
@@ -31,10 +37,14 @@
     "express-layouts": "^1.0.0",
     "express-session": "^1.17.3",
     "method-override": "^3.0.0",
-    "mongoose": "^7.0.3",
+    "mongodb": "^5.2.0",
+    "mongoose": "^5.3.4",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
