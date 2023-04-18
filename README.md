@@ -8,10 +8,12 @@
 
 To run this project, you will need to add the following environment variables to your .env file
 
+```javascript
 SESSION_SECRET=keyboard cat
 PORT=3000
 COOKIE_NAME=Peakgeek
 MONGODB= CHANGE_HERE (MongoDB API)
+```
 
 ## Dependencies
 
