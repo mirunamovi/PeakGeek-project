@@ -72,6 +72,10 @@ Edit the blog
 Cannot edit someone else's blogs
 ![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/51a86e24-1f8a-4afb-849e-a72d5d003085)
 
+Responsive design
+![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/d6e3c960-69a9-438f-b538-9e671a22a7f1)
+
+
 
 
 
