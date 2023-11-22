@@ -66,8 +66,8 @@ Dashboard Page with the owner's blogs
 The blog Page
 ![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/26724517-cced-45b2-89ef-641aa0f839a5)
 
-Edit the blob
-![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/9e9bb072-a6b4-4881-b24f-69ba9871b65c)
+Edit the blog
+![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/b0f60b43-f581-43fa-8056-fd41b6242f93)
 
 Cannot edit someone else's blogs
 ![image](https://github.com/mirunamovi/PeakGeek-project/assets/90201953/51a86e24-1f8a-4afb-849e-a72d5d003085)
