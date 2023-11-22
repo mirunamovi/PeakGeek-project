@@ -10,12 +10,14 @@ router
         res.render('pages/particularBlog', {
             blog: getBlog,
             name: req.user.name,
+            isUserAuthorized: req.user && req.user._id.equals(getBlog.userId),
             layout: './layouts/default',
         })
     })
 
     .get('/delete/:id', (req, res) => {
         const { id } = req.params
+        
         Blog.deleteOne({ _id: id })
             .then(() => {
                 console.log('Deleted blog succesfully')

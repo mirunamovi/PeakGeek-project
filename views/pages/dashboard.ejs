@@ -3,4 +3,25 @@
     <p class="lead mb-3">Welcome <strong> <%= name %></strong></p>
     <p class="lead mb-3">Here's your email: <%= email %></p>
     <a href="/users/logout" class="btn btn-secondary">Logout</a>
+    <h1 class="mt-2">Your Posts:</h1>
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <% if(blogs !=''){ %> <% blogs.reverse() %> <% blogs.forEach(blog=>{ %>
+        <a href="/blog/<%= blog._id %>" class="col text-center blog__link">
+            <div class="blog__img blog__img--large shadow">
+                <img
+                    src="
+                    /uploads/<%= blog.image %>"
+                    alt="<%= blog.title %> "
+                    loading="lazy"
+                    width="400"
+                    height="500"
+                    class="mx-auto"
+                />
+            </div>
+            <h6 class="text-muted">Author: <%= blog.name %></h6>
+            <div class="pt-1"><%= blog.title %></div>
+        </a>
+        <% }) %> <% } %>
+    </div>
+
 </div>

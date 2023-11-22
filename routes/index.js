@@ -35,14 +35,6 @@ router.get('/', notAuthenticate, (req, res) => {
     })
 })
 
-router.get('/dashboard', authenticate, (req, res) => {
-    res.render('pages/dashboard', {
-        title: 'Dashboard',
-        name: req.user.name,
-        email: req.user.email,
-    })
-})
-
 function authenticate(req, res, next) {
     if (req.isAuthenticated()) {
         return next()

@@ -15,6 +15,10 @@ router
     .post('/', async (req, res) => {
         let { title, content, name, image, imageUploadFile, uploadPath } =
             req.body
+        const userId = req.user._id; // Assuming your user object has an _id field
+
+        
+            console.log('Request Body:', req.body);
 
         if (!title || !content || !name || !req.files)
             return res.send(
@@ -28,7 +32,7 @@ router
         imageUploadFile.mv(uploadPath, function (err) {
             if (err) return res.status(500).send(err)
         })
-        const newBlog = new Blog({ title, content, name, image })
+        const newBlog = new Blog({ title, content, name, image, userId})
 
         newBlog
             .save()

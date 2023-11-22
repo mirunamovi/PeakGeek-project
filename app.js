@@ -63,6 +63,7 @@ app.use((req, res, next) => {
 app.use('/', require('./routes/index'))
 app.use('/users', require('./routes/users'))
 app.use('/create', require('./routes/create'))
+app.use('/dashboard', require('./routes/dashboard'))
 app.use(require('./routes/blog'))
 
 app.listen(port, () =>

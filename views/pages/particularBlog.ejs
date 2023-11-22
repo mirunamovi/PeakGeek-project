@@ -46,7 +46,9 @@
             </div>
         </div>
     </div>
+<% if(isUserAuthorized)  {%>
     <a href="/delete/<%=blog._id%>" class="btn btn-danger">Delete</a>
     <a href="/edit/<%=blog._id%>" class="btn btn-warning">Edit</a>
 </div>
+<% } %>
 <% } %>
