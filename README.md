@@ -30,12 +30,6 @@ Clone the project
   git clone https://github.com/mirunamovi/PeakGeek-project.git"
 ```
 
-Go to the project directory
-
-```bash
-  cd project
-```
-
 Install dependencies
 
 ```bash
